@@ -1,0 +1,15 @@
+{
+    "name": "ilyes/projet",
+    "autoload": {
+        "psr-4": {
+            "Ilyes\\Projet\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "imanai20",
+            "email": "ilyesmanai20@gmail.com"
+        }
+    ],
+    "require": {}
+}
