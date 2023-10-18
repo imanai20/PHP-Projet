@@ -116,18 +116,18 @@ echo '
     </a>
 
     <script>
-        // JavaScript pour gérer les onglets
+        
         const tabButtons = document.querySelectorAll("button[id^=\'tabButton\']");
         const tabContents = document.querySelectorAll("div[id^=\'tabContent\']");
 
         tabButtons.forEach((button, index) => {
             button.addEventListener("click", () => {
-                // Masquer tous les contenus des onglets
+                
                 tabContents.forEach(content => {
                     content.style.display = "none";
                 });
 
-                // Afficher le contenu de l\'onglet cliqué
+                
                 tabContents[index].style.display = "block";
             });
         });
